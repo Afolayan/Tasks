@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package iqube;
+package tasks;
 
 import java.util.*;
 
@@ -11,9 +11,9 @@ import java.util.*;
  *
  * @author nezspencer
  */
-public class IQube {
+public class Tasks {
     
-    static IQube iq;
+    static Tasks iq;
     
     public Vertex breadthFS(Vertex startNode, Vertex nodeToFind){
         //add StartNode to queue
@@ -104,7 +104,7 @@ public class IQube {
         v3.addNeighbour(v7);
         v4.addNeighbour(v8);
         
-        iq = new IQube();
+        iq = new Tasks();
         
         iq.breadthFS(v0, v5);
         
